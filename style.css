@@ -1,3 +1,45 @@
 *{
   font-family: "Work Sans", sans-serif;
 }
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-con{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-size: 2rem;
+    font-weight: 800;
+    color:#131313;
+}
+.banner-des{
+    color: #727272;
+}

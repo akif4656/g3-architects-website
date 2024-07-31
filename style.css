@@ -59,7 +59,7 @@ nav ul li a{
 }
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
     
 }
 .team-con{
@@ -74,6 +74,7 @@ main{
     gap: 1.5rem;
     
 }
+
 .team-content{
     padding-left: 70px;
     padding-right: 70px;
@@ -110,6 +111,12 @@ main{
     .banner-title{
         font-size: 1.89rem;
     }
+    .team-con{
+        flex-direction: column;
+    }
+    .team-con-img{
+        grid-template-columns: 1fr;
+    }
    
 }
 @media screen and (min-width:577px) and (max-width:960px) {
@@ -121,5 +128,9 @@ main{
     nav{
         flex-direction: column;
     }
+    .team-con{
+        flex-direction: column;
+    }
+    
    
 }
